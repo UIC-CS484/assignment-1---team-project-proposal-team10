@@ -14,4 +14,4 @@ Development tools:
 * passport.js for authentication
 * Node.js
 
-[Link to Hosted Github Page](https://www.youtube.com/) 
+[Link to Hosted Github Page](https://uic-cs484.github.io/assignment-1---team-project-proposal-team10/) 
