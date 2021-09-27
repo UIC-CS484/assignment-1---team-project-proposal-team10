@@ -14,4 +14,4 @@ Development tools:
 * passport.js for authentication
 * Node.js
 
-Link to Hosted Github Page: 
+[Link to Hosted Github Page](https://www.youtube.com/) 
