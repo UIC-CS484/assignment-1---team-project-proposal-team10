@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="CS484 Assignment 1 - Project Proposal">
+    <meta name="keywords" content="HTML, CSS, CS484, assignment1, project proposal">
+    <meta name="author" content="Rahul Gudivada">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment 1 - PhotoSharing Web App </title>
+
+    <!-- External CSS File -->
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h2 class="header_text">A PhotoSharing Web App</h2>
+    </header>
+    <section>
+        <div id="section_flex_container">
+            <div class="section_box">
+                <h4 class="section_text">APIs + Database Information: </h4>
+                <ul>
+                    <li class="list_space">I will be using the Unsplash API to retrieve and share photos. I also plan 
+                        to integrate Instagram's API for the social media/sharing aspect. <br>
+                    </li>
+                    <li class="list_space" >
+                        The API will get various sources of information and metadata about photos, a similar photos feature, and 
+                        insight to an user about photos surrounding a topic or keywords of their choice.
+                    </li>
+                    <li class="list_space">The data I will collect from users would be only username's for the sharing aspect of the web app. I will
+                        also collect data on different metrics like liked photos, number of photos shared, comments, and etc.
+                    </li>
+                    <li class="list_space">There are many data points in my database. There will be entities for a photos library for each user, 
+                        each photo's metadata, comments entity, users table/entity for each user, liked photos table, authentication 
+                        for users. </li>
+                    <li class="list_space">Some Examples are: <br> USER -> fname, lname, dateofbirth, email, password, numPosts, comments, delPosts sharedPosts
+                    <br> PHOTO -> name, type, datePosted, numLikes, numComments, author, and etc.<br>
+                    PHOTO_LIB -> types, name, datePosted, categories, keywords, authors, topics, and etc.
+                    </li>
+                </ul>
+            </div>
+            <div class="section_box">
+                <h4 class="section_text">Goals + Audience</h4>
+                <ul>
+                    <li class="list_space">
+                        The audience of my site will most likely be photographers, social media influencers, people the work in social media
+                        design, people who are passionate about photography.
+                    </li>
+                    <li class="list_space">
+                        The goals of my site are to provide a platform for people to find unique photos online and share them with like-minded individuals.
+                        Another part of that goal is giving more attention to photographers and helping build their audiences via social media. It also
+                        allows people to get much cooler pictures that are more professional than just google images.
+                    </li>
+                    <li class="list_space">
+                        I selected this topic to allow small photographer to immense skill get noticed and help them build their social media presence as well
+                        as helping others find special photos of high, professional quality for their work or entertainment.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section> 
+    <footer>
+        <div id="footer_flex_container">
+            <div class="footer_box">
+                <h3>Resource Links</h3>
+                    <h4>Using the Unsplash API</h4>
+                        <ul>
+                            <li>Allows users to search images by topic</li>
+                            <li>Let an user enter a keyword to show relevant images</li>
+                            <li><a href="https://unsplash.com/documentation">Link to Unsplash API</a></li>
+                        </ul>
+                    <h4>Links to modeling sites</h4>
+                        <ul>
+                            <li><a href="https://www.flickr.com/">Link to Flickr web app</a></li>
+                            <li><a href="https://www.photoblog.com/">Link to PhotoBlog web app</a></li>
+                            <li><a href="https://www.pixpa.com/">Link to Pixpa web app</a></li>
+                        </ul>
+                    <h4>Helpful Resources</h4>
+                        <ul>
+                            <li><a href="https://www.pluralsight.com/guides/using-the-unsplash-api">Link to guide on Unsplash API</a></li>
+                            <li><a href="https://auth0.com/learn/social-login/">Link to Implemeting social media login for authentication</a></li>
+                            <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Link to complete guide to Flexbox</a></li>
+                        </ul>
+            </div>
+            <div class="footer_box">
+                <h3>Questions + Concerns</h3>
+                    <ul>
+                        <li class="list_space">How will authentication work in terms on social media acounts?</li>
+                        <li class="list_space">What kind of data points will my database require? Can too much data slow down the web app?</li>
+                        <li class="list_space">What type of picture formats are best for uploading and will result in the best quality? </li>
+                        <li class="list_space">How will users connect and share to others through a local Photo Library?</li>
+                        <li class="list_space">How hard will be connecting and sharing cool photos onto other social media platforms?</li>
+                        <li class="list_space">How secure are each user's profile and how can I make them more secure?</li>
+                    </ul>
+            </div>
+            <div class="footer_box">
+                <h3>Accessibility Implementation</h3>
+                    <h5>Add a form element that would make use of vanilla JS that would allow the end-user to 
+                        adjust the size of the text for this site</h5>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
