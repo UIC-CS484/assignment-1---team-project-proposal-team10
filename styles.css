@@ -53,3 +53,18 @@ header {
 .list_space {
   padding-bottom: 10px;
 }
+
+.buttons .btn {
+  padding: 0 10px;
+  display: inline-flex;
+  background: #ddd;
+  color: #444;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.buttons .btn .btn.active{
+  background: #444;
+}
+
+
